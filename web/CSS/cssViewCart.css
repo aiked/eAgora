@@ -1,0 +1,137 @@
+
+/* Container: */
+#container 
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#MainContext
+{
+        
+	min-width:900px;
+        min-height:400px;
+}
+
+/* Info Bar */
+div.Info
+{
+	height:200px;
+}
+
+div.InfoPhoto
+{
+	float:left;
+	padding-top:5px;
+	padding-left:5px;
+}
+
+div.InfoProfile
+{
+	float:left;
+	padding-left:5px;
+	padding-top:5px;	
+}
+
+/* Stuff about following stuff */
+a.followLink:link {text-decoration: none; color:#70B7BA;}
+a.followLink:visited {text-decoration: none; color:#70B7BA;}
+a.followLink:active {text-decoration: none; color:#70B7BA;}
+a.followLink:hover {text-decoration: none; color:#F1433F; }
+
+.Sum
+{
+    float:left;
+    padding-left:50px;
+    padding-top:20px;
+    font-size:20px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+/*Adverts*/
+#Adverts
+{
+    padding-top: 30px;
+    padding-left: 50px;
+    background-color: #70B7BA;
+}
+
+/* Left side : */
+div.Ad
+{
+    float: left;
+    width:800px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+
+}
+
+.TableAd
+{
+    //background-color: #99bbcc;
+    border-left: #000;
+    border-left-style: solid;
+    font-size:16px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    table-layout: fixed;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+    float:left;
+    width:340px;
+    height:110px;
+    
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+div.RightTableAd
+{
+    font-size:12px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+    float:left;
+    position: absolute;
+    margin-left: 350px;
+    width: 140px;
+    height:110px;
+    //background-color: #9F3;
+}
+
+div.BuyMenuAd
+{
+    font-size:14px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    float:left;
+    position: absolute;
+    margin-left: 500px;
+    padding-top: 10px;
+    text-align: center;
+    height:110px;
+}
+
+select.OfferAd
+{
+    width: 80px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+/* Bottom Bar */
+div.bottomBar
+{
+    clear:both;
+    text-align:right;
+    background-color:#E7E1D4;
+    font-size:16px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+

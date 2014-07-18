@@ -1,0 +1,223 @@
+body 
+{
+	font-size: 14px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#000;
+	padding:0;
+	margin:0;
+}
+
+/* Container: */
+#container 
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#MainContext
+{
+        height:100%;
+	min-width:900px;
+}
+
+/* Info Bar */
+div.Info
+{
+	height:200px;
+}
+
+div.InfoPhoto
+{
+	float:left;
+	padding-top:5px;
+	padding-left:5px;
+}
+
+div.InfoProfile
+{
+	float:left;
+	padding-left:5px;
+	padding-top:5px;	
+}
+
+/* Stuff about following stuff */
+a.followLink:link {text-decoration: none; color:#70B7BA;}
+a.followLink:visited {text-decoration: none; color:#70B7BA;}
+a.followLink:active {text-decoration: none; color:#70B7BA;}
+a.followLink:hover {text-decoration: none; color:#F1433F; }
+
+div.InfoFollowers
+{
+    float:right;
+    width:200px;
+    height:190px;
+    overflow:auto;	
+}
+div.InfoFollowing
+{
+	float:right;
+	width:200px;
+	height:190px;
+	overflow:auto;	
+}
+
+/*Profile bar */
+#ProfileBar
+{
+	background-color:#E7E1D4;
+	font-size:16px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	margin-top:5px;
+}
+
+div.ProfileRightSide
+{
+	text-align:right;
+}
+div.ProfileLeftSide
+{
+	text-align:left;
+}
+
+/*Adverts*/
+.Adverts
+{
+    //background-color: #F1433F;
+    width: 600px;
+    float:left;
+}
+
+/* Left side : */
+div.LeftSideAd
+{
+    float: left;
+    width:285px;
+    //background-color: #F1433F;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/* Right Side: */
+div.RightSideAd
+{
+    float: left;
+    width:285px;
+    //background-color: #F1433F;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table.RightAdTable
+{
+    width:270px;
+    padding-top: 5px;
+    
+    border-left: #000;
+    border-left-style: solid;
+    border-bottom: #000;
+    border-bottom-style: solid;
+    
+    font-size:14px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+    table-layout: fixed;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*Notifications Menu*/
+.Notifications
+{
+    float:right;
+    width:300px;
+
+    padding-top: 10px;
+}
+
+.FollowNotification
+{
+    padding: 2px 2px 2px 2px;
+    margin-top: 5px;
+    height: 18px;
+    border-bottom: #333333;
+    border-bottom-style: groove;
+    text-align: center;
+    vertical-align: central;
+    table-layout: fixed;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:12px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+
+}
+
+.RatingNotification
+{
+    padding: 4px 4px 4px 4px;
+    margin-top: 5px;
+    height: 120px;
+    border-bottom: #333333;
+    border-bottom-style: groove;
+    text-align: center;
+    vertical-align: central;
+    table-layout: fixed;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:13px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+
+}
+
+.BuyNowNotification
+{
+    padding: 4px 4px 4px 4px;
+    margin-top: 5px;
+
+    border-bottom: #333333;
+    border-bottom-style: groove;
+    text-align: center;
+    vertical-align: central;
+    table-layout: fixed;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:13px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+
+}
+
+.BuyNowNotificationTable
+{
+    table-layout:fixed;
+    border-collapse: collapse;
+    width:290px;
+    text-align: center;
+    vertical-align: central;
+    
+    font-size:13px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* Bottom Bar */
+div.bottomBar
+{
+    clear:both;
+    text-align:right;
+    background-color:#E7E1D4;
+    font-size:16px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+

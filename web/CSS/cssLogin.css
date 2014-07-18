@@ -1,0 +1,69 @@
+
+body 
+{
+	font-size: 11px;
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	color:#000;
+	padding:0;
+	margin:0;
+}
+
+/* Container: */
+#container 
+{
+	width: 900px;
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+
+/* ------------- Navigation bar: ---------------------*/
+a.navBarLinks:link {text-decoration: none; color:#70B7BA;}
+a.navBarLinks:visited {text-decoration: none; color:#70B7BA;}
+a.navBarLinks:active {text-decoration: none; color:#70B7BA;}
+a.navBarLinks:hover {text-decoration: none; color:#F1433F; }
+
+#navigationBar
+{
+	background-color:#E7E1D4;
+	font-size:16px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	margin-top:5px;
+}
+
+div.NavRightSide
+{
+	text-align:right;
+}
+div.NavLeftSide
+{
+	position:absolute;
+	text-align:left;
+}
+
+#MainContext
+{
+	min-height:400px;
+	min-width:900px;
+	height:expression(this.scrollHeight > 400 ? "auto":"400px"); 
+}
+
+table.CenterIt
+{
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* Bottom Bar */
+div.bottomBar
+{
+	text-align:right;
+	background-color:#E7E1D4;
+	font-size:16px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}

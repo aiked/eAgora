@@ -1,0 +1,79 @@
+
+body 
+{
+	font-size: 14px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#000;
+	padding:0;
+	margin:0;
+}
+
+/* Container: */
+#container 
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#MainContext
+{
+        height:100%;
+	min-width:900px;
+}
+
+/*Adverts*/
+#Adverts
+{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+/* Left side : */
+div.LeftSideAd
+{
+    float: left;
+    width:340px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+/* Right Side: */
+div.RightSideAd
+{
+    float:right;
+    width:340px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+table.RightAdTable
+{
+    width:340px;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+    border-left: #000;
+    border-left-style: solid;
+    border-bottom: #000;
+    border-bottom-style: solid;
+    
+    font-size:14px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+    table-layout: fixed;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Bottom Bar */
+div.bottomBar
+{
+    clear:both;
+    text-align:right;
+    background-color:#E7E1D4;
+    font-size:16px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
